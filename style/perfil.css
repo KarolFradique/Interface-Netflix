@@ -59,6 +59,8 @@ header .logo{
     height: 90px;
     border-radius: 10px;
     margin: 8px;
+
+    cursor: pointer;
 }
   
 .perfil img:hover{

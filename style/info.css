@@ -1,0 +1,94 @@
+:root{
+    --vermelho: #E50914;
+    --preta:  #141414;
+   }
+   
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   
+   /* elemento */
+   
+body{
+        background: var(--preta);  
+        margin-left: 30px; 
+        color: white;
+}
+   
+header .container{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+       
+}
+   
+header .logo{
+       margin-left: 5px;
+       color: var(--vermelho);
+       font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif ;
+       font-size: 30px;
+       text-align: center;
+       
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.info{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/mortalKombat-info.jpg');
+    
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info .titulo{
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    transition: .3s ease all;
+}
+
+.info .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: 'Arial';
+}
+
+.botao{
+    background-color: rgba(0,0,0,.70) ;
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+}
+
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.info .container{
+    width: 90%;
+}
